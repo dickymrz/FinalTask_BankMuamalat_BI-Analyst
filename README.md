@@ -28,7 +28,8 @@ Karena banyaknya "Orders" dapat menggunakan "Products" yang sama, tetapi "Produc
 Karena banyaknya “Products" termasuk ke dalam satu "ProductCategory" tertentu.
 
 ### Soal 3
-Sebagai BI Analyst PT Sejahtera Bersama, kita akan membuat sebuah table master yang berisikan informasi : 
+Sebagai BI Analyst PT Sejahtera Bersama, kita akan membuat sebuah table master yang berisikan informasi :
+
 - CustomerEmail (cust_email) 
 - CustomerCity (cust_city) 
 - OrderDate (order_date) 
@@ -59,6 +60,7 @@ ORDER BY order_date ASC;
 
 ### Soal 4
 Dari hasil tabel yang dibuat pada soal nomor 3, simpanlah hasilnya dalam bentuk CSV. Dengan menggunakan Looker Studio, buatlah visualisasi yang menampilkan data penjualan tersebut. Visualisasi tersebut harus berisi minimal : 
+
 - Total keseluruhan sales 
 - Total keseluruhan sales berdasarkan kategori produk 
 - Total keseluruhan qty berdasarkan kategori produk 
@@ -68,17 +70,20 @@ Dari hasil tabel yang dibuat pada soal nomor 3, simpanlah hasilnya dalam bentuk 
 - Top 5 kategori produk yang paling tinggi qtynya
 
 Answer
-[Looker Studio]([https://www.google.com](https://lookerstudio.google.com/s/jDQrh_lznlc)https://lookerstudio.google.com/s/jDQrh_lznlc)
+![Dashboard](https://github.com/dickymrz/FinalTask_BankMuamalat_BI-Analyst/blob/main/sales_dashboard.png)
 
 ### Soal 5
 Sebagai BI analyst PT Sejahtera Bersama, apa yang bisa anda usulkan untuk mempertahankan penjualan ataupun menaikkan penjualan dengan tabel transaksi detail yang sudah ada?
 
 *1. Mengoptimalkan kategori produk*
+
 Kategori "Robots" adalah kontributor utama untuk total penjualan, namun "eBooks" adalah yang terlaris dalam hal jumlah barang terjual. Kembangkan produk dalam kategori "Robots" atau meningkatkan promosi untuk "eBooks."
 
 *2. Memperluas wilayah dan pemasaran di lima kota teratas*
+
 Lima kota dengan total penjualan tertinggi adalah Washington, Houston, Sacramento, San Diego, dan Albany. Buka franchise dan tingkatkan kampanye pemasaran khusus di setiap kota dengan total penjualan tertinggi. 
 
 *3. Sesuaikan penawaran produk berdasarkan preferensi wilayah*
+
 Berdasarkan proporsi penjualan produk di kota-kota teratas, disarankan untuk menyesuaikan penawaran produk dengan preferensi wilayah. Misalnya, di kota Washington, produk "Robots" sangat populer, jadi bisa memperkuat stok produk dalam kategori ini di wilayah tersebut. Selain itu lakukan juga survei pelanggan atau wawancara dengan mereka untuk mendapatkan wawasan langsung tentang preferensi dan kebutuhan mereka.
 
